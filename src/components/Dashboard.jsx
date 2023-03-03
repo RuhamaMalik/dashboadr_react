@@ -52,9 +52,9 @@ function Dashboard() {
 
                 {/* Investor Details */}
 
-                <Flex  w={flexWidth} flexDirection='column' h='100%'  mt='10px' bg={"yellow"}>
+                <Flex w={flexWidth} flexDirection='column' h='100%' mt='10px' bg={"yellow"}>
 
-                    <Flex  flexDirection='column' justifyContent='space-between'  bg="#ccd5de " borderRadius='10px'>
+                    <Flex flexDirection='column' justifyContent='space-between' bg="#ccd5de " borderRadius='10px'>
                         <Text
                             border='1px solid grey'
                             borderRadius='10px'
@@ -77,14 +77,14 @@ function Dashboard() {
                             <Heading as="h4" mt={0} mb={0}> Single</Heading>
                         </Box>
 
-                    <Flex justifyContent='flex-end' p='5px'>
-                        <Image boxSize='20px' objectFit='cover' src={edit} alt='edit' textAlign='right'/>
+                        <Flex justifyContent='flex-end' p='5px'>
+                            <Image boxSize='20px' objectFit='cover' src={edit} alt='edit' textAlign='right' />
                         </Flex>
                     </Flex>
 
-                    
 
-                    
+
+
                 </Flex>
 
             </Flex>
@@ -92,21 +92,16 @@ function Dashboard() {
 
             {/* Goals session */}
             <Flex flexDirection={flexDirection} justifyContent="space-between" alignItems="center">
-                <Box h='100%' w='50vw' alignSelf='flex-start'>          
-                   <Goals />
+                <Box h='100%' w='50vw' alignSelf='flex-start'>
+                    <Goals />
 
-</Box>
-
-              
-
-                {/* Investor Details */}
-
-<Box w={flexWidth}>
-                <Image w='100%' objectFit='cover' src={medium} alt='medium' textAlign='right'/>
-                <Heading as="h2" mt={0} mb={0}>Medium </Heading>
-                <Flex justifyContent='flex-end' p='5px'>
-                        <Image boxSize='20px' objectFit='cover' src={edit} alt='edit' textAlign='right'/>
-                        </Flex>
+                </Box>
+                <Box w={flexWidth}>
+                    <Image w='100%' objectFit='cover' src={medium} alt='medium' textAlign='right' />
+                    <Heading as="h2" mt={0} mb={0}>Medium </Heading>
+                    <Flex justifyContent='flex-end' p='5px'>
+                        <Image boxSize='20px' objectFit='cover' src={edit} alt='edit' textAlign='right' />
+                    </Flex>
                 </Box>
             </Flex>
 
